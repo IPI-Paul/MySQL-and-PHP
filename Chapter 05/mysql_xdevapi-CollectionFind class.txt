@@ -1,0 +1,46 @@
+﻿mysql_xdevapi\CollectionFind {
+	mysql_xdevapi\CollectionFind
+		mysql_xdevapi\Executable
+		mysql_xdevapi\CrudOperationBindable
+		mysql_xdevapi\CrudOperationLimitable
+		mysql_xdevapi\CrudOperationSortable
+	Methods
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::bind(
+				array placeholder_values
+			);
+		public mysql_xdevapi\DocResult
+			mysql_xdevapi\CollectionFind::execute();
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::fields(
+				string projection
+			);
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::groupBy(
+				string sort_expr
+			);
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::having(
+				string sort_expr
+			);
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::limit(
+				integer rows
+			);
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::lockExclusive(
+				integer lock_waiting_option
+			);
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::lockShared(
+				integer lock_waiting_option
+			);
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::offset(
+				integer position
+			);
+		public mysql_xdevapi\CollectionFind
+			mysql_xdevapi\CollectionFind::sort(
+				string sort_expr
+			);
+}

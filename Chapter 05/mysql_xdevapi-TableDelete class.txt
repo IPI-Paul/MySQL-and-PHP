@@ -1,0 +1,27 @@
+﻿mysql_xdevapi\TableDelete {
+	mysql_xdevapi\TableDelete
+		mysql_xdevapi\Executable
+	Methods
+		public mysql_xdevapi\TableDelete
+			mysql_xdevapi\TableDelete::bind(
+				array placeholder_values
+			);
+		public mysql_xdevapi\Result
+			mysql_xdevapi\TableDelete::execute();
+		public mysql_xdevapi\TableDelete
+			mysql_xdevapi\TableDelete::limit(
+				integer rows
+			);
+		public mysql_xdevapi\TableDelete
+			mysql_xdevapi\TableDelete::offset(
+				integer position
+			);
+		public mysql_xdevapi\TableDelete
+			mysql_xdevapi\TableDelete::orderby(
+				string orderby_expr
+			);
+		public mysql_xdevapi\TableDelete
+			mysql_xdevapi\TableDelete::where(
+				string where_expr
+			);
+}

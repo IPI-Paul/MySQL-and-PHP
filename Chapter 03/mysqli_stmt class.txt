@@ -1,0 +1,83 @@
+mysqli_stmt {
+	mysqli_stmt
+			Properties
+		int
+			mysqli_stmt->affected_rows;
+		int
+			mysqli_stmt->errno;
+		array
+			mysqli_stmt->error_list;
+		string
+			mysqli_stmt->error;
+		int
+			mysqli_stmt->field_count;
+		int 
+			mysqli_stmt->insert_id;
+		int
+			mysqli_stmt->num_rows;
+		int
+			mysqli_stmt->param_count;
+		string
+			mysqli_stmt->sqlstate;
+	
+	Methods
+		mysqli_stmt::__construct(
+			mysqli link,
+			string query
+		);
+		int 
+			mysqli_stmt::attr_get(
+				int attr
+			);
+		bool 
+			mysqli_stmt::attr_set(
+				int attr,
+				int mode
+			);
+		bool 
+			mysqli_stmt::bind_param(
+				string types,
+				mixed var1,
+				mixed ...
+			);
+		bool 
+			mysqli_stmt::bind_result(
+				mixed var1,
+				mixed ...
+			);
+		bool 
+			mysqli_stmt::close();
+		void 
+			mysqli_stmt::data_seek(
+				int offset
+			);
+		bool 
+			mysqli_stmt::execute();
+		bool 
+			mysqli_stmt::fetch();
+		void 
+			mysqli_stmt::free_result();
+		mysqli_result
+			mysqli_stmt::get_result();
+		object
+			mysqli_stmt::get_warnings(
+				mysqli_stmt stmt
+			);
+		int 
+			mysqli_stmt::num_rows();
+		mixed 
+			mysqli_stmt::prepare(
+				string query
+			)
+		bool
+			mysqli_stmt::reset();
+		mysqli_result
+			mysqli_stmt::result_metadata();
+		bool 
+			mysqli_stmt::send_long_data(
+				int param_nr,
+				string data
+			);
+		bool 
+			mysqli_stm::store_result();
+}

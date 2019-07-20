@@ -1,0 +1,61 @@
+﻿mysql_xdevapi\Collection {
+	mysql_xdevapi\Collection
+		mysql_xdevapi\SchemaObject
+			Properties
+				public
+					name;
+			Methods
+				public mysql_xdevapi\CollectionAdd
+					mysql_xdevapi\Collection::add(
+						mixed document
+					);
+				public mysql_xdevapi\Result
+					mysql_xdevapi\Collection::addOrReplaceOne(
+						string id,
+						string doc
+					);
+				public integer
+					mysql_xdevapi\Collection::count();
+				public void 
+					mysql_xdevapi\Collection::createIndex(
+						string index_name,
+						string index_desc_json
+					);
+				public bool
+					mysql_xdevapi\Collection::dropIndex(
+						string index_name
+					);
+				public bool
+					mysql_xedvapi\Collection::existsInDatabase();
+				public mysql_xdevapi\CollectionFind
+					mysql_xdevapi\Collection::find(
+						string search_condition
+					);
+				public string
+					mysql_xdevapi\Collection::getName();
+				public Document
+					mysql_xdevapi\Collection::getOne(
+						string id
+					);
+				public Schema Object
+					mysql_xdevapi\Collection::getSchema();
+				public Session 
+					mysql_xdevapi\Collection::getSession();
+				public mysql_xdevapi\CollectionModify
+					mysql_xdevapi\Collection::modify(
+						string search_condition
+					);
+				public mysql_xdevapi\CollectionRemove
+					mysql_xdevapi\Collection::remove(
+						string search_condition
+					);
+				public mysql_xdevapi\Result
+					mysql_xdevapi\Collection::removeOne(
+						string id
+					);
+				public mysql_xdevapi\Result
+					mysql_xdevapi\Collection::replaceOne(
+						string id,
+						string doc
+					);
+}

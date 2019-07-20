@@ -1,0 +1,7 @@
+﻿mysql_xdevapi\SchemaObject {
+	mysql_xdevapi\SchemaObject
+		mysql_xdevapi\DatabaseObject
+	Methods
+		abstract mysql_xdevapi\Schema
+			mysql_xdevapi\SchemaObject::getSchema();
+}

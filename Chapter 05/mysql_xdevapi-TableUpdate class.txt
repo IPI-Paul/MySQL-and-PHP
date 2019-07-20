@@ -1,0 +1,29 @@
+﻿mysql_xdevapi\TableUpdate {
+	mysql_xdevapi\TableUpdate
+		mysql_xdevapi\Executable
+	Methods
+		public mysql_xdevapi\TableUpdate 
+			mysql_xdevapi\TableUpdate::bind(
+				array placeholder_values
+			);
+		public mysql_xdevapi\TableUpdate
+			mysql_xdevapi\TableUpdate::execute();
+		public mysql_xdevapi\TableUpdate
+			mysql_xdevapi\TableUpdate::limit(
+				integer rows
+			);
+		public mysql_xdevapi\TableUpdate
+			mysql_xdevapi\TableUpdate::orderBy(
+				mixed orderby_expr,
+				mixed ...
+			);
+		public mysql_xdevapi\TableUpdate
+			mysql_xdevapi\TableUpdate::set(
+				string table_field,
+				string expression_or_literal
+			);
+		public mysql_xdevapi\TableUpdate
+			mysql_xdevapi\TableUpdate::where(
+				string where_expr
+			);
+}

@@ -1,0 +1,44 @@
+﻿mysql_xdevapi\TableSelect {
+	mysql_xdevapi\TableSelect
+		mysql_xdevapi\Executable
+	Methods
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect:bind(
+				array placeholder_values
+			);
+		public mysql_xdevapi\RowResult
+			mysql_xdevapi\TableSelect::execute();
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::groupBy(
+				mixed sort_expr
+			);
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::having(
+				string sort_expr
+			);
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::limit(
+				integer rows
+			);
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::lockExclusive(
+				integer lock_waiting_option
+			);
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::lockShared(
+				integer lock_waiting_option
+			);
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::offset(
+				integer position
+			);
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::orderby(
+				mixed sort_expr,
+				mixed ...
+			);
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\TableSelect::where(
+				string where_expr
+			);
+}

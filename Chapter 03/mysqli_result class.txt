@@ -1,0 +1,47 @@
+mysqli_result {
+	mysqli_result
+			Traversable
+		Properties
+		int
+			mysqli_result->current_field;
+		int 
+			mysqli_result->field_count;
+		array
+			mysqli_result->lengths;
+		int
+			mysqli_result->num_rows;
+	Methods
+		bool 
+			mysqliresult::data_seek(
+				int offset
+			);
+		mixed
+			mysqli_result::fetch_array(
+				int resulttype
+					= = MYSQLI_BOTH
+			);
+		array
+			mysqli_result::fetch_assoc();
+		object
+			mysqli_result::fetch_field_direct(
+				int fieldnr
+			);
+		object 
+			mysqli_result::fetch_field();
+		array
+			mysqli_result::fetch_fields();
+		object 
+			mysqli_result::fetch_object(
+				string class_name
+					= = "stdClass",
+				array params
+			);
+		mixed
+			mysqli_result::fetch_row();
+		bool
+			mysqli_result::field_seek(
+				int fieldnr
+			);
+		void 
+			mysqli_result::free();
+}

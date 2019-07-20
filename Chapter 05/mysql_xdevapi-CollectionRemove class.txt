@@ -1,0 +1,22 @@
+﻿mysql_xdevapi\CollectionRemove {
+	mysql_xdevapi\CollectionRemove
+		mysql_xdevapi\Executable
+		mysql_xdevapi\CrudOperationBindable
+		mysql_xdevapi\CurdOperationLimitable
+		mysql_xdevapi\CrudOperationSortable
+	Methods
+		public mysql_xdevapi\CollectionRemove
+			mysql_xdevapi\CollectionRemove::bind(
+				array placeholder_values
+			);
+		public mysql_xdevapi\Result
+			mysql_xdevapi\CollectionRemove::execute();
+		public mysql_xdevapi\CollectionRemove
+			mysql_xdevapi\CollectionRemove::limit(
+				interger rows
+			);
+		public mysql_xdevapi\CollectionRemove
+			mysql_xdevapi\CollectionRemove::sort(
+				string sort_expr
+			);
+}

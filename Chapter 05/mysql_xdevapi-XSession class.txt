@@ -1,0 +1,5 @@
+﻿mysql_xdevapi\XSession {
+	mysql_xdevapi\XSession
+		Constructor
+			private mysql_xdevapi\XSession::__construct();
+}

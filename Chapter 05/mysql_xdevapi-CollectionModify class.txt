@@ -1,0 +1,51 @@
+﻿mysql_xdevapi\CollectionModify {
+	mysql_xdevapi\CollectionModify
+			mysql_xdevapi\Executable
+			mysql_xdevapi\CrudOperationBindable
+			mysql_xdevapi\CrudOperationLimitable
+			mysql_xdevapi\CrudOperationSkippable
+			mysql_xdevapi\CrudOperationSortable
+		Methods
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::arrayAppend(
+			string collection_field,
+			string expression_or_literal
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::arrayInsert(
+			string collection_field,
+			string expression_or_literal
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::bind(
+			array placeholder_values
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::execute();
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::limit(
+			integer rows
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::patch(
+			string document
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::replace(
+			string collection_field,
+			string expression_or_literal
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::set(
+			string collection_field,
+			string expression_or_literall
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::sort(
+			string sort_expr
+		);
+	public mysql_xdevapi\CollectionModify
+		mysql_xdevapi\CollectionModify::unset(
+			array fields
+		);
+}

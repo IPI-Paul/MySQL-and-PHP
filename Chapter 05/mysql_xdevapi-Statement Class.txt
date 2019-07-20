@@ -1,0 +1,17 @@
+﻿mysql_xdevapi\Statement {
+	mysql_xdevapi\Statement
+		Constants
+			const integer
+				mysql_xdevapi\Statement::EXECUTE_ASYNC
+					=	=1;
+			cont integer
+				mysql_xdevapi\Statement::BUFFERED
+					=	=2;
+		Methods
+			public mysql_xdevapi\Result
+				mysql_xdevapi\Statement::getNextResult();
+			public mysql_xdevapi\Result
+				mysql_xdevapi\Statement::getResult();
+			public bool
+				mysql_xdevapi\Statement::hasMoreResults();
+}

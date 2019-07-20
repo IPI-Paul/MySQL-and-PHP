@@ -1,0 +1,210 @@
+mysqli {
+mysqli
+		Properties
+	int
+		mysqli->affected_rows;
+	int
+		mysqli->connect_errno;
+	string
+		mysqli->connect_error;
+	int
+		mysqli->errno;
+	array
+		mysqli->error_list;
+	string
+		mysqli->error;
+	int
+		mysqli->field_count;
+	string
+		mysqli->client_info;
+	int
+		mysqli->client_version
+	string
+		mysqli->host_info;
+	string
+		mysqli->protocol_version;
+	string
+		mysqli->servr_info;
+	string
+		mysqli->server_version;
+	string
+		mysqli->info;
+	mixed
+		mysqli->insert_id;
+	string
+		mysqli->sqlstate;
+	int
+		mysqli->thread_id;
+	int
+		mysqli->warning_count;
+
+Methods
+	mysqli::__construct(
+		string host
+			=	=ini_get("mysqli.default_host"),
+		string username
+			=	=ini_get("mysqli.default_user"),
+		string passwd
+			=	=ini_get("mysqli.default_pw"),
+		string dbname
+			=	="", 
+		int port
+			=	=ini_get("mysqli.default_port"),
+		string socket
+			=	=ini_get("mysqli.default_socket")
+	);
+	
+	bool mysqli::autocommit(bool mode);
+
+	bool mysqli::change_user(
+		string user,
+		string password,
+		string database
+	);
+
+	string mysqli::character_set_name();
+
+	bool mysqli::close();
+
+	bool mysqli::commit(
+		int flags
+			=	=0,
+		string name
+	);
+
+	void mysqli::connect(
+		string host
+			=	=ini_get("mysqli.default_host"),
+		string username
+			=	=ini_get("mysqli.default_user"),
+		string passwd
+			=	=ini_get("mysqli.default_pw"),
+		string dbname
+			=	="",
+		int port
+			=	=ini_get("mysqli.default_port"),
+		string socket
+			=	=ini_get("mysqli.default_socket")
+	);
+	bool mysqli::debug(
+		string::message
+	);
+
+	bool mysqli::dump_debug_info();
+	object mysqli::get_charset();
+	string mysqli::get_client_info();
+	bool mysqli::get_connection_stats();
+	string mysqli_stmt::get_server_info();
+	mysqli_warning msqli::get_warnings();
+	mysqli mysqli::init();
+
+	bool mysqli::kill(
+		int processid
+	);
+
+	bool mysqli::more_results();
+
+	bool mysqli::multi_query(
+		string query
+	);
+
+	bool mysqli::next_result();
+
+	bool mysqli::options(
+		int option,
+		mixed value
+	);
+
+	bool mysqli::ping();
+
+	public static int mysqli::poll(
+		array read,
+		array error,
+		array reject,
+		int sec,
+		int usec
+			=	=0
+	);
+
+	mysqli_stmt msqli::prepare(
+	string query
+	);
+
+	mixed mysqli::query(
+		string query,
+		int resultmode
+			=	=MYSQLI_STORE_RESULT
+	);
+
+	bool mysqli::real_connect(
+		string host,
+		string username,
+		string passwd,
+		string dbname,
+		int port,
+		string socket,
+		int flags
+	);
+
+	string mysqli::escape_string(
+		string escapestr
+	);
+
+	string mysqli::real_escape_string(
+		string escapestr
+	);
+
+	bool mysqli::real_query(
+		string query
+	);
+
+	public mysqli_result mysqli::reap_async_query();
+
+	public bool mysqli::refresh(
+		int options
+	);
+
+	bool mysqli::roolback(
+		int flags
+			=	=0,
+			string name
+	);
+
+	int mysqli::rpl_query_type(
+		string query
+	);
+
+	bool mysqli::select_db(
+		string dbname
+	);
+
+	bool mysqli::send_query(
+		string query
+	);
+
+	bool mysqli::set_charset(
+		string charset
+	);
+
+	bool mysqli::set_local_infile_handler(
+		mysqli link,
+		callable read_func
+	);
+
+	bool mysqli::ssl_set(
+		string key,
+		string cert,
+		string ca,
+		string capath,
+		string cipher
+	);
+
+	string mysqli::stat();
+	mysqli_stmt mysqli::stmt_init();
+
+	mysqli_result mysqli::store_result(
+		int option
+	);
+
+	mysqli_result mysqli::use_result();
+}

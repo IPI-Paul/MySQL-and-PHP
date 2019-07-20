@@ -1,0 +1,11 @@
+﻿mysql_xdevapi\TableInsert {
+	mysql_xdevapi\TableInsert
+		mysql_xdevapi\Executable
+	Methods
+		public mysql_xdevapi\Result
+			mysql_xdevapi\TableInsert::execute();
+		public mysql_xdevapi\TableInsert
+			mysql_xdevapi\TableInsert::values(
+				array row_values
+			);
+}

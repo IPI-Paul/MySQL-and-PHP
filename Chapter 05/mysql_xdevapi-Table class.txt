@@ -1,0 +1,34 @@
+﻿mysql_xdevapi\Table {
+	mysql_xdevapi\Table
+		mysql_xdevapi\SchemaObject
+	Properties
+		public 
+			name;
+	Methods
+		public integer
+			mysql_xdevapi\Table::count();
+		public mysql_xdevapi\TableDelete
+			mysql_xdevapi\Table::delete();
+		public bool
+			mysql_xdevapi\Table::existsInDatabase();
+		public string
+			mysql_xdevapi\Table::getName();
+		public mysql_xdevapi\Schema
+			mysql_xdevapi\Table::getSchema();
+		public mysql_xdevapi\Session
+			mysql_xdevapi\Table::getSession();
+		public mysql_xdevapi\TableInsert
+			mysql_xdevapi\Table::insert(
+				mixed columns,
+				mixed ...
+			);
+		public bool
+			mysql_xdevapi\Table::isView();
+		public mysql_xdevapi\TableSelect
+			mysql_xdevapi\Table::select(
+				mixed columns,
+				mixed ...
+			);
+		public mysql_xdevapi\TableUpdate
+			mysql_xdevapi\Table::update();
+}

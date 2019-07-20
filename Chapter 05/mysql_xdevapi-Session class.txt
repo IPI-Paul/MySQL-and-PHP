@@ -1,0 +1,62 @@
+﻿mysql_xdevapi\Session {
+	mysql_xdevapi\Session
+		Methods
+			public bool
+				mysql_xdevapi\Session::close();
+			public Object
+				mysql_xdevapi\Session::commit();
+			public mysql_xdevapi\Schema
+				mysql_xdevapi\Session::createSchema(
+					string schema_name
+				);
+			public bool
+				mysql_xdevapi\Session::dropSchema(
+					string schema_name
+				);
+			public bool
+				mysql_xdevapi\Session::executeSql(
+					string statement
+				);
+			public string
+				mysql_xdevapi\Session::generateUUID();
+			public integer 
+				mysql_xdevapi\Session::getClientId();
+			public mysql_xdevapi\Schema
+				mysql_xdevapi\Session::getSchema(
+					string schema_name
+				);
+			public array
+				mysql_xdevapi\Session::getSchemas();
+			public integer
+				mysql_xdevapi\Session::getServerVersion()
+			public object
+				mysql_xdevapi\Session::killClient(
+					integer client_id
+				);
+			public array
+				mysql_xdevapi\Session::listClients();
+			public string
+				mysql_xdevapi\Session::quoteName(
+					string name
+				);
+			public void
+				mysql_xdevapi\Session::releaseSavepoint(
+					string name
+				);
+			public void
+				mysql_xdevapi\Session::rollback();
+			public void
+				mysql_xdevapi\Session::rollbackTo(
+					string name
+				);
+			public string
+				mysql_xdevapi\Session::setSavepoint(
+					string name
+				);
+			public mysql_xdevapi\Statement
+				mysql_xdevapi\Session::sql(
+					string query
+				);
+			public void
+				mysql_xdevapi\Session::startTransaction();
+}

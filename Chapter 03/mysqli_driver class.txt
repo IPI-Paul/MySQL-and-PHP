@@ -1,0 +1,26 @@
+mysqli_driver {
+	mysqli_driver
+		Properties
+			public readonly string
+				client_info;
+			public readonly string
+				client_version;
+			public readonly string
+				driver_version;
+			public readonly string
+				embedded;
+			public bool
+				reconnect;
+			public int 
+				resport_mode;
+
+		Methods
+			void 
+				mysqli_driver::embedded_server_end();
+			bool
+				mysqli_driver::embedded_server_start(
+					int start,
+					array arguments,
+					array groups
+				);
+}

@@ -1,0 +1,11 @@
+﻿mysql_xdevapi\Expression {
+	mysql_xdevapi\Expression
+		Properties
+			public 
+				name;
+		Constructor
+			public
+				mysql_xdevapi\Expression::__construct(
+					string expression
+				);
+}

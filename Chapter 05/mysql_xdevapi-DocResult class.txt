@@ -1,0 +1,14 @@
+﻿mysql_xdevapi\DocResult {
+	mysql_xdevapi\DocResult
+		mmysql_xdevapi\BaseResult
+		Travesable
+	Methods
+		public array
+			mysql_xdevapi\DocResult::fetchAll();
+		public array
+			mysql_xdevapi\DocResult::fetchOne();
+		public array
+			mysql_xdevapi\DocResult::getWarnings();
+		public integer
+			mysql_xdevapi\DocResult::getWarningsCount();
+}

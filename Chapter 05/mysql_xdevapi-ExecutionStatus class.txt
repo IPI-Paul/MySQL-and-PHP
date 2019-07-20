@@ -1,0 +1,17 @@
+﻿mysql_xdevapi\ExecutionStatus {
+	mysql_xdevapi\ExecutionStatus
+		Properties
+			public 
+				affectedItems;
+			public
+				matchedItems;
+			public
+				foundItems;
+			public
+				lastInsertId;
+			public 
+				lastDocumentId;
+		Constructor
+			private
+				mysql_xdevapi\ExecutionStatus::__construct();
+}

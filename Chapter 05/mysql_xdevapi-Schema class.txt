@@ -1,0 +1,38 @@
+﻿mysql_xdevapi\Schema {
+	mysql_xdevapi\Schema
+		mysql_xdevapi\DatabaseObject
+	Properties
+		public
+			name;
+	Methods
+		public mysql_xdevapi\Collection
+			mysql_xdevapi\Schema::createCollection(
+				string name
+			);
+		public bool
+			mysql_xdevapi\Schema::dropCollection(
+				string collection_name
+			);
+		public bool
+			mysql_xdevapi\Schema::existsInDatabase();
+		public mysql_xdevapi\Collection
+			mysql_xdevapi\Schema::getColletion(
+				string name
+			);
+		public mysql_xdevapi\Table 
+			mysql_xdevapi\Schema::getCollectionAsTable(
+				string name
+			);
+		public array
+			mysql_xdevapi\Schema::getCollections();
+		public string
+			mysql_xdevapi\Schema::getName();
+		public mysql_xdevapi\Session
+			mysql_xdevapi\Schema::getSession();
+		public mysql_xdevapi\Table
+			mysql_xdevapi\Schema::getTable(
+				string name
+			);
+		public array
+			mysql_xdevapi\Schema::getTables();
+}

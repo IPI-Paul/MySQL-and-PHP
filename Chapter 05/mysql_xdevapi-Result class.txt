@@ -1,0 +1,14 @@
+﻿mysql_xdevapi\Result {
+	mysql_xdevapi\Result
+		mysql_xdevapi\BaseResult
+			Travesable
+	Methods
+		public int
+			mysql_xdevapi\Result::getAutoIncrementValue();
+		public ArrayOfInt
+			mysql_xdevapi\Result::getGeneratedIds();
+		public array
+			mysql_xdevapi\Result::getWarnings();
+		public integer
+			mysql_xdevapi\Result::getWarningsCount();
+}

@@ -1,0 +1,28 @@
+﻿mysql_xdevapi\ColumnResult {
+	mysql_xdevapi\ColumnResult
+		Methods
+			public string
+				mysql_xdevapi\ColumnResult::getCharacterSetName();
+			public string
+				mysql_xdevapi\ColumnResult::getCollationName();
+			public string
+				mysql_xdevapi\ColumnResult::getColumnLabel();
+			public string
+				mysql_xdevapi\ColumnResult::getColumnName();
+			public integer
+				mysql_xdevapi\ColumnResult::getFractionalDigits();
+			public integer
+				mysql_xdevapi\ColumnResult::getLength();
+			public string
+				mysql_xdevapi\ColumnResult::getSchemaName();
+			public string
+				mysql_xdevapi\ColumnResult::getTableLabel();
+			public string
+				mysql_xdevapi\ColumnResult::getTableName();
+			public integer
+				mysql_xdevapi\ColumnResult::getType();
+			public integer
+				mysql_xdevapi\ColumnResult::isNumberSigned();
+			public integer 
+				mysql_xdevapi\ColumnResult::isPadded();
+}

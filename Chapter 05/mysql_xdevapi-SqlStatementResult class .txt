@@ -1,0 +1,30 @@
+﻿mysql_xdevapi\SqlStatementResult {
+	mysql_xdevapi\SqlStatementResult
+		mysql_xdevapi\BaseResult
+		Travesable
+	Methods
+		public array 
+			mysql_xdevapi\SqlStatementResult::fetchAll();
+		public array
+			mysql_xdevapi\SqlStatementResult::fetchOne();
+		public integer
+			mysql_xdevapi\SqlStatementResult::getAffectedItemsCount();
+		public integer
+			mysql_xdevapi\SqlStatementResult::getColumnsCount();
+		public integer
+			mysql_xdevapi\SqlStatementResult::getColumnNames();
+		public Array
+			mysql_xdevapi\SqlStatementResult::getColumns();
+		public array
+			mysql_xdevapi\SqlStatementResult::getGeneratedIds();
+		public String
+			mysql_xdevapi\SqlStatementResult::getLastInsertId();
+		public array
+			mysql_xdevapi\SqlStatementResult::getWarnings();
+		public integer
+			mysql_xdevapi\SqlStatementResult::getWarningsCount();
+		public bool 
+			mysql_xdevapi\SqlStatementResult::hasData();
+		public mysql_xdevapi\Result
+			mysql_xdevapi\SqlStatementResult::nextResult();
+}

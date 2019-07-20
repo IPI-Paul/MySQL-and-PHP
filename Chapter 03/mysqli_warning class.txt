@@ -1,0 +1,15 @@
+mysqli_warning {
+	mysqli_warning
+		Properties
+			public 
+				message;
+			public
+				sqlstate;
+			public 
+				errno;
+		Methods
+			protected
+				mysqli_warning::__constrtuct();
+			public void
+				mysqli_warning::next();
+}

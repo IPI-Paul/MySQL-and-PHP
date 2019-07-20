@@ -1,0 +1,12 @@
+﻿mysql_xdevapi\Warning {
+	mysql_xdevapi\Warning
+		Properties 
+			public 
+				message;
+			public 
+				level;
+			public 
+				code;
+		Constructor
+			private mysql_xdevapi\Warning::__construct();
+}

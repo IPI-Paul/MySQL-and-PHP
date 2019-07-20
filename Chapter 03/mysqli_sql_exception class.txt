@@ -1,0 +1,15 @@
+mysqli_sql_exception {
+	mysqli_sql_exception extends RuntimeException
+		Properties
+			protected string 
+				sqlstate;
+		Inherited properties
+			protected string
+				message;
+			protected int
+				code;
+			protected string
+				file;
+			protected int
+				line;
+}

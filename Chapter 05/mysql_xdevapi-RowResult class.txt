@@ -1,0 +1,20 @@
+﻿mysql_xdevapi\RowResult {
+	mysql_xdevapi\RowResult
+		mysql_xdevapi\BaseResult
+			Travesable
+	Methods
+		public array
+			mysql_xdevapi\RowResult::fetchAll();
+		public array
+			mysql_xdevapi\RowResult::fetchOne();
+		public integer
+			mysql_xdevapi\RowResult::getColumnsCount();
+		public array
+			mysql_xdevapi\RowResult::getColumnNames();
+		public array
+			mysql_xdevapi\RowResult::getColumns();
+		public array
+			mysql_xdevapi\RowResult::getWarnings();
+		public integer
+			mysql_xdevapi\RowResult::getWarningsCount();
+}

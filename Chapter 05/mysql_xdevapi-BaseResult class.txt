@@ -1,0 +1,8 @@
+﻿mysql_xdevapi\BaseResult {
+	mysql_xdevapi\BaseResult
+		Methods
+			abstract public array 
+				mysql_xdevapi\BaseResult::getWarnings();
+			abstract public integer
+				mysql_xdevapi\BaseResult::getWarningsCount();
+}
